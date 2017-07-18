@@ -11,20 +11,20 @@ export default () => ({ // eslint-disable-line
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'Politics and the English Language',
+  headline: 'German Federal Election Polltracker',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Political language is designed to make lies sound truthful' +
-           'and murder respectable, and to give an appearance of solidity to pure wind',
+  summary: 'Angela Merkel is vying for a fourth term as Chancellor ' +
+           'when Germany elects a new Bundestag on September 24.',
 
   topic: {
-    name: 'Starter Kit',
-    url: '/foo',
+    name: 'Germany politics',
+    url: 'https://www.ft.com/topics/themes/Germany_politics',
   },
 
   relatedArticle: {
-    text: 'Related article »',
-    url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
+    text: '',
+    url: '',
   },
 
   mainImage: {
@@ -42,8 +42,8 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Author One', url: '/foo/bar' },
-    { name: 'Author Two' },
+    { name: 'Anna Leach', url: 'https://www.ft.com/stream/e5d0bbfe-4265-3f06-8337-6ba184e4f7b1' },
+    { name: 'Martin Stabe', url: 'https://www.ft.com/martin-stabe' },
   ],
 
   // Appears in the HTML <title>
