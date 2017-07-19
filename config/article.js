@@ -1,21 +1,20 @@
 export default () => ({ // eslint-disable-line
 
   // link file UUID
-  id: '$uuid',
+  id: '10d73870-6cb0-11e7-bfeb-33fe0c5b7eaa',
 
   // canonical URL of the published page
   // "$url" get filled in by the ./configure script
-  url: '$url',
+  url: 'https://ig.ft.com/germany-poll-tracker',
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'German federal election 2017 polltracker',
+  headline: 'German election 2017 polltracker',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Angela Merkel is vying for a fourth term as Chancellor ' +
-           'when Germany elects a new Bundestag on September 24.',
+  summary: 'Angela Merkel is vying for a fourth term as Chancellor when Germany elects a new Bundestag on September 24.',
 
   topic: {
     name: 'Germany politics',
@@ -91,7 +90,7 @@ export default () => ({ // eslint-disable-line
   //ADVERTISING
   ads: {
     // ad unit hierarchy makes ads more granular. Start with ft.com and /companies /markets /world as appropriate to your story
-    gptAdunit: 'ft.com/companies/european',
+    gptAdunit: 'ft.com/world/europe',
     // granular targeting is optional and will be specified by the ads team
     dftTargeting: '',
   },
