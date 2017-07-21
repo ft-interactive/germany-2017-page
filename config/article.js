@@ -43,7 +43,6 @@ export default () => ({ // eslint-disable-line
   byline: [
     { name: 'Anna Leach', url: 'https://www.ft.com/stream/e5d0bbfe-4265-3f06-8337-6ba184e4f7b1' },
     { name: 'Martin Stabe', url: 'https://www.ft.com/martin-stabe' },
-    { name: 'Caroline Nevitt', url: '' },
   ],
 
   // Appears in the HTML <title>
