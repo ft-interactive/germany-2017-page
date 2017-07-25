@@ -32,7 +32,7 @@ export default () => ({ // eslint-disable-line
     credit: '',
 
     // You can provide a UUID to an image and it was populate everything else
-    uuid: '',
+    uuid: 'c76f24ae-6d6d-11e7-b9c7-15af748b60d0',
 
     // You can also provide a URL
     // url: 'https://image.webservices.ft.com/v1/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2Fc4bf0be4-7c15-11e4-a7b8-00144feabdc0?source=ig&fit=scale-down&width=700',
@@ -66,7 +66,7 @@ export default () => ({ // eslint-disable-line
   */
   // General social
   socialImage: 'http://ft-ig-content-prod.s3-website-eu-west-1.amazonaws.com/v2/ft-interactive/germany-2017-polltracker/master/germany-2017-latest-medium.svg',
-  socialHeadline: "German 2017 elections - who's leading the polls?",
+  socialHeadline: "German 2017 elections - polltracker",
   socialDescription: 'How will Germans vote in 2017?',
   //twitterCreator: '@author's_account', // shows up in summary_large_image cards
 

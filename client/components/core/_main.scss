@@ -33,12 +33,17 @@ body {
   }
 }
 
+/* Amend display of graphics */
+
+article .image-set > div {
+  padding-left: 0;
+}
 
 .graphic {
   display: block;
   max-width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0 0 2% 0;
   box-sizing: border-box;
   width: 100%;
 
