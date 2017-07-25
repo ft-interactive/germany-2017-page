@@ -33,6 +33,11 @@ body {
   }
 }
 
+/* Amend display of graphics */
+
+article .image-set > div {
+  padding-left: 0;
+}
 
 .graphic {
   display: block;
