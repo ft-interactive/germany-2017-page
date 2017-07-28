@@ -9,7 +9,7 @@ export default () => ({ // eslint-disable-line
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
-  publishedDate: new Date(),
+  publishedDate: new Date('2017-07-31T05:00:00Z'),
 
   headline: 'German election 2017 polltracker',
 
@@ -17,8 +17,8 @@ export default () => ({ // eslint-disable-line
   summary: 'Angela Merkel is vying for a fourth term as Chancellor when Germany elects a new Bundestag on September 24.',
 
   topic: {
-    name: 'Germany politics',
-    url: 'https://www.ft.com/topics/themes/Germany_politics',
+    name: 'German election',
+    url: 'https://www.ft.com/stream/1b3d0776-b477-3590-a6ba-4d4a6d2244c3',
   },
 
   relatedArticle: {
@@ -41,7 +41,7 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Anna Leach', url: 'https://www.ft.com/stream/e5d0bbfe-4265-3f06-8337-6ba184e4f7b1' },
+    { name: 'Anna Leach', url: 'https://www.ft.com/anna-leach' },
     { name: 'Martin Stabe', url: 'https://www.ft.com/martin-stabe' },
   ],
 
