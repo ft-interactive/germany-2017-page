@@ -15,3 +15,34 @@
                 - index.js
                 - template.html
 */
+
+.party {
+	font-family:metric;
+	font-weight:600	;
+	font-size:20px;
+	whitespace:nowrap;
+	display:inline-block;
+}
+
+.party a {color:black;}
+
+.party a:hover {color:#66605C;}
+
+.icon { width: 8px;
+	height:12px;
+line-height:inherit;
+position: relative;
+display: inline-block;
+margin-right:2px;}
+
+.cdu .icon {background: rgb(0, 0, 0);}
+
+.spd .icon {background: rgb(243, 77, 91);}
+
+.gruene .icon {background: rgb(174, 204, 112);}
+
+.linke .icon {background: rgb(179, 50, 93);}
+
+.fdp .icon {background: #fcc83c;}
+
+.afd .icon {background: rgb(30, 143, 204);}
