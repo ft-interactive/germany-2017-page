@@ -1,4 +1,4 @@
-# (Germany poll tracker 2017](https://ig.ft.com/germany-poll-tracker)
+# [Germany poll tracker 2017](https://ig.ft.com/germany-poll-tracker)
 
 [![Build Status][circle-image]][circle-url] [![Dependency Status][dependencyci-image]][dependencyci-url]
 
