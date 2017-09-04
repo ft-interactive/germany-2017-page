@@ -11,10 +11,10 @@ export default () => ({ // eslint-disable-line
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'German election 2017 poll tracker',
+  headline: 'German election polls',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Angela Merkel is vying for a fourth term as chancellor when Germany elects a new Bundestag on September 24',
+  summary: 'Will Angela Merkel win a fourth term as chancellor when Germany elects a new Bundestag on September 24?',
 
   topic: {
     name: 'German election',
@@ -46,10 +46,10 @@ export default () => ({ // eslint-disable-line
   ],
 
   // Appears in the HTML <title>
-  title: 'German Bundestag election poll tracker',
+  title: 'German election polls 2017',
 
   // meta data
-  description: 'Tracking the voting intention polls ahead of Germany’s election on Septmber 24.',
+  description: 'Tracking voting intention polls ahead of the German federal election on Septmber 24.',
 
   /*
   TODO: Select Twitter card type -
@@ -66,7 +66,7 @@ export default () => ({ // eslint-disable-line
   */
   // General social
   socialImage: 'http://ft-ig-content-prod.s3-website-eu-west-1.amazonaws.com/v2/ft-interactive/germany-2017-polltracker/master/germany-2017-latest-medium.svg',
-  socialHeadline: "German elections 2017 - poll tracker",
+  socialHeadline: "German election polls #btw17",
   socialDescription: 'How will Germans vote in 2017?',
   //twitterCreator: '@author's_account', // shows up in summary_large_image cards
 
