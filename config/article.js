@@ -11,7 +11,7 @@ export default () => ({ // eslint-disable-line
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'German election polls',
+  headline: 'German election polls 2017',
 
   // summary === standfirst (Summary is what the content API calls it)
   summary: 'Will Angela Merkel win a fourth term as chancellor when Germany elects a new Bundestag on September 24?',
