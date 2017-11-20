@@ -11,14 +11,14 @@ export default () => ({ // eslint-disable-line
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'German election polls 2017',
+  headline: 'German political poll tracker',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Will Angela Merkel win a fourth term as chancellor when Germany elects a new Bundestag on September 24?',
+  summary: 'What outcomes are likely if there are fresh elections?',
 
   topic: {
-    name: 'German election',
-    url: 'https://www.ft.com/stream/1b3d0776-b477-3590-a6ba-4d4a6d2244c3',
+    name: 'Germany politics',
+    url: 'hhttps://www.ft.com/topics/themes/Germany_politics',
   },
 
   relatedArticle: {
@@ -32,7 +32,7 @@ export default () => ({ // eslint-disable-line
     credit: '',
 
     // You can provide a UUID to an image and it was populate everything else
-    uuid: 'c76f24ae-6d6d-11e7-b9c7-15af748b60d0',
+    uuid: '8c6b537c-cde5-11e7-b781-794ce08b24dc',
 
     // You can also provide a URL
     // url: 'https://image.webservices.ft.com/v1/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2Fc4bf0be4-7c15-11e4-a7b8-00144feabdc0?source=ig&fit=scale-down&width=700',
@@ -46,10 +46,10 @@ export default () => ({ // eslint-disable-line
   ],
 
   // Appears in the HTML <title>
-  title: 'German election polls 2017',
+  title: 'Germany politics poll tracker',
 
   // meta data
-  description: 'Tracking voting intention polls ahead of the German federal election on Septmber 24.',
+  description: 'Tracking German voting intention polls since the Bundestag election on Septmber 24, 2017.',
 
   /*
   TODO: Select Twitter card type -
@@ -66,8 +66,8 @@ export default () => ({ // eslint-disable-line
   */
   // General social
   socialImage: 'http://ft-ig-content-prod.s3-website-eu-west-1.amazonaws.com/v2/ft-interactive/germany-2017-polltracker/master/germany-2017-latest-medium.svg',
-  socialHeadline: "German election polls #btw17",
-  socialDescription: 'How will Germans vote in 2017?',
+  socialHeadline: "THe @ft German political poll tracker",
+  socialDescription: 'How popular are Germany’s political parties right now?',
   //twitterCreator: '@author's_account', // shows up in summary_large_image cards
 
   // TWEET BUTTON CUSTOM TEXT
