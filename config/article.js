@@ -9,7 +9,7 @@ export default () => ({ // eslint-disable-line
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
-  publishedDate: new Date(),
+  publishedDate: new Date('2017-11-20T15:09:38.860Z'),
 
   headline: 'German political poll tracker',
 
@@ -18,7 +18,7 @@ export default () => ({ // eslint-disable-line
 
   topic: {
     name: 'Germany politics',
-    url: 'hhttps://www.ft.com/topics/themes/Germany_politics',
+    url: 'https://www.ft.com/topics/themes/Germany_politics',
   },
 
   relatedArticle: {
@@ -65,7 +65,7 @@ export default () => ({ // eslint-disable-line
         optional social meta data?
   */
   // General social
-  socialImage: 'http://ft-ig-content-prod.s3-website-eu-west-1.amazonaws.com/v2/ft-interactive/germany-2017-polltracker/master/germany-2017-latest-medium.svg',
+  socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A8c6b537c-cde5-11e7-b781-794ce08b24dc?source=ig&width=1400&gravity=faces&format=png',
   socialHeadline: "THe @ft German political poll tracker",
   socialDescription: 'How popular are Germany’s political parties right now?',
   //twitterCreator: '@author's_account', // shows up in summary_large_image cards
